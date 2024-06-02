@@ -103,12 +103,7 @@
         <Grid RelativePanel.AlignLeftWithPanel="True"
               RelativePanel.AlignRightWithPanel="True"
               RelativePanel.Below="LoadProgressIndicator">
-            <ParallaxView x:Name="ParaView" VerticalShift="50">
 
-                <!--Background element-->
-                <Image x:Name="BackgroundImage" Source="Assets/bg1.png"
-               Stretch="UniformToFill"/>
-            </ParallaxView>
 
             <!--Foreground element-->
             <ScrollViewer x:Name="ForegroundElement">
