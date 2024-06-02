@@ -32,7 +32,7 @@ namespace winrt::PhotoEditor::implementation
         m_compositor(App::Window().Compositor())
     {
         InitializeComponent();
-        ParaView().Source(ForegroundElement());
+       // ParaView().Source(ForegroundElement());
     }
 
     // Loads collection of Photos from users Pictures library.
